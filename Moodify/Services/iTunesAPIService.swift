@@ -29,7 +29,7 @@ class iTunesAPIService {
     }
     
     // Generic search by term
-    func searchTracks(term: String, limit: Int = Constants.API.defaultLimit) async throws -> [Track] {  // ✅ Use constant
+    func searchTracks(term: String, limit: Int = Constants.API.defaultLimit) async throws -> [Track] {
         // Build URL with query parameters
         var components = URLComponents(string: baseURL)
         components?.queryItems = [

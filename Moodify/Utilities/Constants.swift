@@ -41,7 +41,7 @@ struct Constants {
     
     // MARK: - Audio
     struct Audio {
-        static let previewDuration: Double = 30.0 // iTunes previews are 30 seconds
+        static let previewDuration: Double = 30.0
         static let seekInterval: Double = 5.0
     }
     
